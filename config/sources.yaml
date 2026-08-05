@@ -1,0 +1,45 @@
+rss_feeds:
+  - name: "TechCrunch AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    authority: 85
+  - name: "The Verge Tech"
+    url: "https://www.theverge.com/rss/tech/index.xml"
+    authority: 80
+  - name: "MIT Technology Review"
+    url: "https://www.technologyreview.com/feed/"
+    authority: 90
+
+hackernews:
+  enabled: true
+  authority: 88
+  min_score: 50
+  max_stories: 30
+
+devto:
+  enabled: true
+  authority: 70
+  tags: ["ai", "webdev", "javascript", "react", "python", "machinelearning"]
+  max_articles: 20
+
+reddit:
+  enabled: true
+  authority: 75
+  subreddits:
+    - "MachineLearning"
+    - "webdev"
+    - "artificial"
+    - "programming"
+    - "Frontend"
+  max_posts_per_sub: 10
+  time_filter: "week"
+
+# Opportunity scoring weights (Section 9)
+scoring_weights:
+  freshness: 0.15
+  trend_velocity: 0.15
+  audience_relevance: 0.20
+  source_authority: 0.10
+  unique_angle: 0.15
+  visual_potential: 0.05
+  pillar_fit: 0.15
+  saturation_penalty: 0.05

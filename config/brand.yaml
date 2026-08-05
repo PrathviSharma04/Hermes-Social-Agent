@@ -1,0 +1,174 @@
+# Brand Identity
+identity:
+  creator_name: "Prathvi Sharma"
+  brand_purpose: "Empower developers and technologists with actionable, deeply-researched content on AI, web development, and modern software engineering."
+  positioning: "Technical educator and builder who creates with evidence, not hype."
+  expertise:
+    - AI / Agentic AI / Gen AI Development
+    - Web Development / Frontend / Full Stack
+    - Automation Systems / Agent Architecture
+    - Web Design / UI Engineering
+  audience:
+    primary: "GenZ developers and tech professionals (22-35)"
+    secondary: "Engineering managers, startup founders, indie hackers"
+    pain_points:
+      - "Information overload without actionable clarity"
+      - "AI hype vs. real-world production patterns"
+      - "Bridging design and engineering"
+  values:
+    - "Evidence over opinion"
+    - "Build in public, learn in public"
+    - "Depth over volume"
+    - "Practical over theoretical"
+  differentiators:
+    - "Combines design + engineering + AI perspectives"
+    - "Builds and deploys what he writes about"
+    - "Research-backed, not hot-take driven"
+  desired_perception:
+    - "Sharp, modern technical voice"
+    - "Trustworthy and precise"
+    - "Creative and visually distinctive"
+
+# Content Pillars
+content_pillars:
+  - name: "AI & Agentic Systems"
+    description: "Production AI agents, Gen AI development, LLM patterns"
+    keywords: ["agentic AI", "LLM", "AI agents", "gen AI"]
+  - name: "Web Development & Design"
+    description: "Frontend, full-stack, web design, UI/UX engineering"
+    keywords: ["frontend", "full stack", "web design", "UI"]
+  - name: "Automation & Systems"
+    description: "Building automation pipelines, developer tooling, infrastructure"
+    keywords: ["automation", "DevOps", "tooling", "systems"]
+  - name: "Builder's Journey"
+    description: "Build in public, lessons learned, project breakdowns"
+    keywords: ["build in public", "side project", "startup"]
+
+# Voice & Writing Rules
+voice:
+  sentence_style: "Direct, mid-length sentences. Vary rhythm. Use fragments sparingly for emphasis."
+  vocabulary: "Technical but accessible. Explain jargon on first use. Prefer concrete words over abstract."
+  technical_depth: "Deep enough to be useful to practitioners, clear enough for ambitious beginners."
+  humor_policy: "Dry wit acceptable. Never forced. Never at someone's expense."
+  opinion_policy: "Strong opinions held loosely. Always label as OPINION. Back up with evidence when possible."
+  punctuation: "Em-dashes for asides. Minimal exclamation marks. Oxford comma."
+  opening_styles:
+    - "Sharp observation or counterintuitive fact"
+    - "Specific number or result"
+    - "Direct question the audience has"
+    - "Bold claim followed by evidence"
+  closing_styles:
+    - "Actionable takeaway"
+    - "Thoughtful question for discussion"
+    - "Forward-looking implication"
+
+# Banned Patterns
+banned_patterns:
+  phrases:
+    - "game changer"
+    - "revolutionary"
+    - "let that sink in"
+    - "here's the thing"
+    - "buckle up"
+    - "hot take"
+    - "unpopular opinion" # unless genuinely unpopular
+    - "this changes everything"
+    - "mind-blowing"
+    - "you won't believe"
+  behaviors:
+    - "Fake personal stories the creator didn't experience"
+    - "Generic motivational filler without substance"
+    - "Unsupported superlatives"
+    - "Repetitive AI transition phrases"
+    - "Meaningless CTAs (like, share, follow without value)"
+    - "Manufactured controversy"
+    - "Excessive hashtags (max 5 per post)"
+    - "Fake certainty on uncertain topics"
+    - "Copied creator phrasing from watchlist"
+    - "Starting every post with 'I'"
+
+# Visual System
+visual_system:
+  palette:
+    primary: "#6C5CE7"       # Vibrant purple
+    secondary: "#00CEFF"     # Electric cyan
+    accent: "#FF6B6B"        # Warm coral
+    dark_bg: "#0F0F1A"       # Deep navy-black
+    light_bg: "#F8F9FA"      # Clean off-white
+    text_primary: "#FFFFFF"
+    text_secondary: "#B0B0C0"
+  typography:
+    heading: "Inter Bold / 700"
+    subheading: "Inter SemiBold / 600"
+    body: "Inter Regular / 400"
+    code: "JetBrains Mono / 400"
+  spacing:
+    margin: "40px"
+    padding: "24px"
+    card_gap: "16px"
+  borders:
+    radius: "12px"
+    style: "none or subtle 1px rgba(255,255,255,0.08)"
+  logo:
+    placement: "Bottom-right footer or top-left header"
+    min_clear_space: "16px"
+    max_size_percent: 15
+  platform_dimensions:
+    linkedin_carousel: "1080x1350"
+    linkedin_single: "1200x627"
+    instagram_carousel: "1080x1350"
+    instagram_story: "1080x1920"
+    x_single: "1200x675"
+  accessibility:
+    min_contrast_ratio: 4.5
+    alt_text_required: true
+
+# Visual Families
+visual_families:
+  - name: "Editorial Explainer"
+    description: "Clean dark backgrounds, large typography, minimal illustration. Used for how-to and explainer content."
+    bg_style: "dark_gradient"
+    typography_scale: "large"
+    illustration: "minimal line art or none"
+    use_cases: ["tutorials", "explainers", "how-to"]
+
+  - name: "Technical Diagram"
+    description: "System diagrams, architecture flows, code snippets with syntax highlighting."
+    bg_style: "dark_solid"
+    typography_scale: "medium"
+    illustration: "technical diagrams, flowcharts"
+    use_cases: ["architecture", "system design", "code walkthrough"]
+
+  - name: "Bold Opinion"
+    description: "Large quote-style typography on vibrant gradient backgrounds. High contrast."
+    bg_style: "vibrant_gradient"
+    typography_scale: "extra_large"
+    illustration: "none or abstract shapes"
+    use_cases: ["opinions", "hot takes", "provocative questions"]
+
+  - name: "Data Insight"
+    description: "Charts, statistics, numbered comparisons on clean dark backgrounds."
+    bg_style: "dark_solid"
+    typography_scale: "medium"
+    illustration: "charts, data visualizations"
+    use_cases: ["research findings", "benchmarks", "comparisons"]
+
+  - name: "Product Breakdown"
+    description: "Screenshots, tool reviews, product analysis with annotated visuals."
+    bg_style: "dark_gradient"
+    typography_scale: "medium"
+    illustration: "screenshots, annotated UI"
+    use_cases: ["tool reviews", "product analysis", "project showcases"]
+
+# Brand Scoring
+scoring:
+  brand_fit_threshold: 90
+  writing_quality_threshold: 85
+  visual_quality_threshold: 85
+  scoring_dimensions:
+    - "voice_consistency"
+    - "pillar_alignment"
+    - "banned_pattern_absence"
+    - "visual_family_adherence"
+    - "audience_relevance"
+    - "authenticity"

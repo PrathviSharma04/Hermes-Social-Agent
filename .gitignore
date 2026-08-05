@@ -1,0 +1,75 @@
+# Environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database & Storage
+*.db
+*.sqlite
+*.sqlite3
+data/
+!data/.gitkeep
+
+# Logs
+logs/
+*.log
+!logs/.gitkeep
+
+# OAuth Credentials & Tokens
+credentials*.json
+token*.json
+token*.pickle
+*.pem
+*.key
+client_secret*.json
+
+# Generated Assets (if not intentionally tracked)
+assets/*
+!assets/.gitkeep
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTest
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store

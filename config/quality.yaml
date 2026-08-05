@@ -1,0 +1,12 @@
+quality_gate:
+  research_confidence: 90
+  audience_relevance: 80
+  originality: 80
+  information_value: 80
+  brand_fit: 90
+  writing_quality: 85
+  visual_quality: 85
+  claim_verification: true
+  duplicate_check: true
+  personal_experience_check: true
+  max_revision_loops: 3
