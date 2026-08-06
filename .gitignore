@@ -21,7 +21,7 @@ logs/
 !logs/.gitkeep
 
 # OAuth Credentials & Tokens
-credentials*.json
+*credentials*.json
 token*.json
 token*.pickle
 *.pem
