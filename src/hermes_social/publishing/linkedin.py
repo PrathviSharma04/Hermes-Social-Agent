@@ -37,8 +37,8 @@ class LinkedInPublisher(PublisherAdapter):
             return False
             
         try:
-            # Check the me endpoint to validate token
-            resp = requests.get(f"{self.API_BASE}/me", headers=self._get_headers(), timeout=5)
+            # Check the userinfo endpoint to validate token
+            resp = requests.get(f"{self.API_BASE}/userinfo", headers=self._get_headers(), timeout=5)
             return resp.status_code == 200
         except Exception:
             return False
@@ -75,9 +75,9 @@ class LinkedInPublisher(PublisherAdapter):
         # In a complete implementation, this would handle media upload via assets API
         try:
             # We need the person URN
-            me_resp = requests.get(f"{self.API_BASE}/me", headers=self._get_headers())
+            me_resp = requests.get(f"{self.API_BASE}/userinfo", headers=self._get_headers())
             me_resp.raise_for_status()
-            author_urn = f"urn:li:person:{me_resp.json()['id']}"
+            author_urn = f"urn:li:person:{me_resp.json()['sub']}"
             
             # Create a simple text share
             post_data = {
